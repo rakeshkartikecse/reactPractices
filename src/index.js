@@ -1,12 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom";
+var React=require("react");
+var ReactDOM= require("react-dom");
 
-import App from "./App";
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  rootElement
-);
+ReactDOM.render(<h1>Hello World</h1>, where to showit);
