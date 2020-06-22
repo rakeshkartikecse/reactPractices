@@ -1,18 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-//const num = 7;
+const currentDate = new Date();
+console.log(currentDate);
+const year = currentDate.getFullYear();
 ReactDOM.render(
   <div>
-    <h1 className="heading" contentEditable="true" spellCheck="false">
-      My FavoursdFood is
-    </h1>
-
-    <ul>
-      <li>Bacon</li>
-      <li>Jamon</li>
-      <li>Noodles</li>
-    </ul>
+    <h1>Created by Kartike</h1>
+    <div>Copyrighted {year}</div>
   </div>,
   document.getElementById("root")
 );
