@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const d = new Date();
+const d = new Date(2019, 1, 1, 17);
 const currentTime = d.getHours();
 let greeting;
 const customStyle = {
@@ -21,7 +21,9 @@ if (currentTime < 12) {
 
 ReactDOM.render(
   <div>
-    <h1 className="heading">{greeting}</h1>
+    <h1 className="heading-param" style={customStyle}>
+      {greeting}
+    </h1>
   </div>,
   document.getElementById("root")
 );
