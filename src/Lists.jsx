@@ -2,12 +2,14 @@ import React from "react";
 
 function Lists() {
   return (
-    <ul>
-      <li>Beacon</li>
-      <li>Fruits</li>
+    <div>
+      <ul>
+        <li>Beacon</li>
+        <li>Fruits</li>
 
-      <li>Mango</li>
-    </ul>
+        <li>Mango</li>
+      </ul>
+    </div>
   );
 }
 
