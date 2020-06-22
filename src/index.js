@@ -1,14 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const num = 7;
 ReactDOM.render(
   <div>
-    <h1> My Favourite Foods</h1>
-    <ul>
-      <li>Bacon</li>
-      <li>Jamon</li>
-      <li>Noodles</li>
-    </ul>
+    <h1>Hello Kartike</h1>
+    <p> Your Lucky number is {Math.floor(Math.random() * 10)}</p>
   </div>,
   document.getElementById("root")
 );
