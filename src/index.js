@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const imga = "https://picsum.photos/500";
+const customStyle = {
+  color: "red",
+  fontSize: "20px",
+  border: "1px solid black"
+};
+
 ReactDOM.render(
-  <div>
-    <h1 className="heading">Created by Kartike</h1>
-    <img src={imga} />
-  </div>,
+  <h1 style={customStyle}>Hello World!</h1>,
   document.getElementById("root")
 );
